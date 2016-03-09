@@ -1,0 +1,26 @@
+{
+  "name": "kims",
+  "version": "0.0.4",
+  "description": "",
+  "main": "index.js",
+  "homepage": "http://fis.baidu.com/",
+  "bin": {
+    "kims": "bin/kims"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fis-parser-coffee-script": "0.0.2",
+    "fis3": "^3.3.17",
+    "fis3-hook-cmd": "^0.1.2",
+    "fis3-hook-relative": "^1.0.6",
+    "fis3-parser-less2": "^0.1.1",
+    "fis3-postpackager-loader": "^1.3.13",
+    "fis3-spriter-csssprite": "^0.1.0",
+    "liftoff": "^2.2.0",
+    "minimist": "^1.2.0"
+  }
+}
